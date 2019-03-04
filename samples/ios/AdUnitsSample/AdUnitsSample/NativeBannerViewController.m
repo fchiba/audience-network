@@ -146,9 +146,9 @@
 
 #pragma mark - Orientation
 
-- (FBInterfaceOrientationMask)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskAll;
 }
 
 @end

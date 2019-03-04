@@ -53,10 +53,10 @@
     return self.reuseIdentifiers[indexPath.row];
 }
 
-- (FBInterfaceOrientationMask)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskPortrait;
-}
+//- (FBInterfaceOrientationMask)supportedInterfaceOrientations
+//{
+//    return UIInterfaceOrientationMaskPortrait;
+//}
 
 - (BOOL)isDebugLogsViewControllerAvailable
 {

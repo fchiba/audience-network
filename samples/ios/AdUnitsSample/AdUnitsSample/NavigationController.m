@@ -24,20 +24,14 @@
 @end
 
 @implementation NavigationController
+- (BOOL)shouldAutorotate
+{
+    return YES;
+}
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-    UIInterfaceOrientationMask mask = UIInterfaceOrientationMaskAll;
-    NSArray<UIViewController *> *viewControllers = [self viewControllers];
-
-    for (UIViewController *viewController in viewControllers) {
-        if ([viewController isKindOfClass:[ViewController class]]) {
-            mask = UIInterfaceOrientationMaskPortrait;
-            break;
-        }
-    }
-
-    return mask;
+    return UIInterfaceOrientationMaskAll;
 }
 
 @end

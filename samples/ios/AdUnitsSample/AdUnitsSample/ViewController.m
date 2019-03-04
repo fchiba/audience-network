@@ -233,9 +233,9 @@ const NSUInteger LoadNativeAdCellRowIndex = 0;
 
 #pragma mark - Orientation
 
-- (FBInterfaceOrientationMask)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskAll;
 }
 
 - (void)mediaViewDidLoad:(FBMediaView *)mediaView

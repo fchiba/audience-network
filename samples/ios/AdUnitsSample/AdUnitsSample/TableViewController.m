@@ -183,9 +183,9 @@ static NSString *const kDefaultCellIdentifier = @"kDefaultCellIdentifier";
 
 #pragma mark - Orientation
 
-- (FBInterfaceOrientationMask)supportedInterfaceOrientations
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskAll;
 }
 
 @end
